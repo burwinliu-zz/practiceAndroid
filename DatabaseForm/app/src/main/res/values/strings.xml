@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Database Form</string>
+
+    <string name="show_frag">Fragment</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+</resources>
