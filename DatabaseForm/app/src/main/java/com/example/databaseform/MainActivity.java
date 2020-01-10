@@ -28,9 +28,11 @@ public class MainActivity extends AppCompatActivity implements TimePickerFragmen
     int hour_end = hour_start+1;
     int minute_end = minute_start;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
 
         dateSelected = findViewById(R.id.date_selected);

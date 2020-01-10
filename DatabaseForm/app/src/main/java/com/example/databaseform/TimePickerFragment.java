@@ -60,6 +60,7 @@ public class TimePickerFragment
 
         // set values
         // calendar set
+        // EXPLAINED TO HERE
         try {
             dayInt = mainActivity.getDay();
             monthInt = mainActivity.getMonth();
@@ -78,7 +79,7 @@ public class TimePickerFragment
             SimpleDateFormat sdf = new SimpleDateFormat("MM dd, yyyy");
             date = sdf.format(new Date(calendarView.getDate()));
         }
-        catch (Exception NullPointerException){Log.e("onCreateView", "Null Calendar");}
+        catch (Exception NullPointerException) {Log.e("onCreateView", "Null Calendar");}
         //time set
         try {
             String AM_PMStart, AM_PMEnd;
